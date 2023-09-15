@@ -12,11 +12,6 @@ config ZMK_KEYBOARD_NAME
 
 endif
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
 if SHIELD_LILY59_LEFT || SHIELD_LILY59_RIGHT || SHIELD_LILY59_DONGLE
 
 config ZMK_SPLIT
